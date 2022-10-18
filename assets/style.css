@@ -1,0 +1,113 @@
+:root {
+    --dark: #131017;
+    --cyan: #00d5ff;
+    --neon: #b6f3ff;
+    --deep-purp: #4a1a60;
+    --midnight: #24172a;
+    --carmine: #ff008c;
+  }
+
+*{
+background-color: var(--dark);
+color: var(--carmine)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  color: var(--carmine);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  /* 4rem = 40px (4 * 10px) */
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18rem;
+}
+
+h6 {
+  font-size: 16rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: var(--deep-purp);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar h1,
+.sidebar p{
+    background-color: var(--deep-purp);
+    margin: 10px 0;
+    padding: 1%;
+}
+
+.sidebar a{
+    display: block;
+    color:var(--cyan);
+    background-color: var(--deep-purp);
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    background-color: var(--midnight);
+    color: var(--neon);
+    text-shadow: 0 0 3px var(--cyan);
+}
+
+
+.me{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/brent-rambo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    margin: 4% 0;
+    border-width: 0px;
+    border-left: 10px;
+    border-style: solid;
+    border-color: var(--carmine);
+    padding-left: 2%;
+    margin-left:260px;
+}
+
+.space{
+    margin: 1%;
+}
+
+.projects{
+
+}
